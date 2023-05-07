@@ -1,0 +1,48 @@
+120 33 32 32
+// The first line should contain the width and height of the
+// map and the width and height of each tile. A list of character to
+// tile mappings is then provided where each character is preceded by a
+// # character. The dot character always defaults to a blank space 
+// Note that the referenced files should be in the same directory as the
+// tile map.
+#t=pipetop.png
+#b=pipebot.png
+#d=Dirt.png
+#G=GrassMidSpring.png
+#L=GrassLeft.png
+#R=GrassRight.png
+// The actual tile map is preceded by the #map line
+#map
+d.........................................................................................................dddddddddddddd
+d...............G..........................................................................................ddddddddddddd
+dC.............Cd..........................................................................................ddddddddddddd
+dC............C.d.........................GGGGGGGGGGG.......................................................dddddddddddd
+d..C....C....C..d.........................ddddddddddd........................................................ddddddddddd
+dGGR...LGGGGGGGGd............................................................................................ddddddddddd
+dddd.......dddddd...........................................................C.................................dddddddddd
+dddd..........ddd............................................................C....CC..C.......................dddddddddd
+ddddGGR........dd.............................g......................LGGR.....C....LGGGR..C....................ddddddddd
+ddddddd.........d..................................g.................LGGR.....C....ddddddGR.....................dddddddd
+dCC..ddGGR........C.........................C.....................LGGdddd..........ddddddddGGR..................dddddddd
+dCC.............C.LR..CC....................g....C...........C....LGGddddR.........ddddddddddd..C................ddddddd
+d......CCC..a.....ddGR..CC..a.C........a.........g............LGGGdddddddGR........dddddddddddGR..................dddddd
+dGGGGGGGGGGGGGGGGGddddGR....C.....LR..........C....C...C.C..LGGGdddddddddddR...t...ddddddddddddd...C...............ddddd
+ddddddddddddddddddddddddGGGGGGGGGGdGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGddddddddddddGGGGR...LGGGGGGGGGGGddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd..ddddddddddddddddd
+ddd...............d.........w........................................................................w.............ddddd
+ddC.........f.....d..................................................................................C............Lddddd
+d...C.............d..................................................................................C............dddddd
+d....C......GGGGGGd..............................................................................................Ldddddd
+dGGG......C.......................GGGGGGGGGGGGGGGGGGGGGGGGGGG...................................................Lddddddd
+ddddddd...........................dddddddddddddddddddddddddddG.....C............................................dddddddd
+d.........C.....................................................C..A...........................................Ldddddddd
+d...................M.........................................................................................Lddddddddd
+d.........C...................................................................................................dddddddddd
+d............................................g.....................LR.......................................LGdddddddddd
+d...g.....C..............CCC............g........g.......g.........ddGG......C.......C.....C................dddddddddddd
+d.g.................t..C......C..C...a.....a.....a....g............dddddd..a.......a..a.....................Lddddddddddd
+d.C.......C........GGGGG......GGGGR.......t....t....t....t.........LGGGGGR......tC......tC.....LGGR.......LGdddddddddddd
+d.C.............GGdddddGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGddddddddddddd
+d.C.g.a.......GGGddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+d........CC..Gdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGd
